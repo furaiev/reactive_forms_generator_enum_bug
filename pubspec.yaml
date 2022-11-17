@@ -1,0 +1,26 @@
+name: projects
+description: reactive_forms - analyzer 5.2.0 bug
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  reactive_forms: ^14.0.0
+  reactive_forms_annotations: ^0.13.0-beta
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+#  reactive_forms_generator: 0.20.0-beta
+  reactive_forms_generator: ^0.22.0-beta
+
+flutter:
+  uses-material-design: true
